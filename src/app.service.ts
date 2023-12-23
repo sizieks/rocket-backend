@@ -4,10 +4,6 @@ import { leads } from './leads';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
-
   public leads: ILead[] = leads;
 
   findLeadsByUser(user: string): ILead[] {
