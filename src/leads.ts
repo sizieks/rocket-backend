@@ -100,7 +100,7 @@ const getRandomEmail = () => {
 
 export const leads: ILead[] = Array.from(Array(100), (_, index) => ({
   id: getRandomUID(),
-  name: `Случайная сделака #${index}`,
+  name: `Случайная сделка #${index}`,
   price: getRandomPrice(),
   user: `${getRandomItem(names)} ${getRandomItem(surnames)}`,
   created_at: getRandomDate(),
